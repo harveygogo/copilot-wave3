@@ -450,7 +450,7 @@ section{
   margin-bottom:8px;
 }
 .pillar-en{
-  font-size:12px;
+  font-size:15px;
   letter-spacing:1.5px;
   color:var(--text-muted);
   margin-bottom:14px;
@@ -781,12 +781,12 @@ section{
   margin-bottom:12px;
   font-weight:600;
 }
-.demo-info p{color:var(--text-dim); font-size:14px; line-height:1.7}
+.demo-info p{color:var(--text-dim); font-size:16px; line-height:1.7}
 .demo-info ul{list-style:none; margin-top:14px}
 .demo-info li{
   padding:6px 0;
   color:var(--text-dim);
-  font-size:13px;
+  font-size:15px;
   display:flex;
   align-items:start;
   gap:10px;
@@ -828,8 +828,8 @@ section{
   display:flex;
   align-items:center;
 }
-.painsol-pain h4{font-size:16px; margin-bottom:8px; color:#C82333; font-weight:700}
-.painsol-pain p{font-size:13px; color:var(--text-dim); line-height:1.6}
+.painsol-pain h4{font-size:18px; margin-bottom:8px; color:#C82333; font-weight:700}
+.painsol-pain p{font-size:15px; color:var(--text-dim); line-height:1.6}
 .painsol-arrow{
   display:flex;
   align-items:center;
@@ -837,8 +837,8 @@ section{
   font-size:24px;
   color:var(--ms-blue);
 }
-.painsol-sol h4{font-size:16px; margin-bottom:8px; color:var(--ms-blue); font-weight:700}
-.painsol-sol p{font-size:13px; color:var(--text-dim); line-height:1.6}
+.painsol-sol h4{font-size:18px; margin-bottom:8px; color:var(--ms-blue); font-weight:700}
+.painsol-sol p{font-size:15px; color:var(--text-dim); line-height:1.6}
 .painsol-sol .pillar-tag{
   display:inline-block;
   margin-top:8px;
@@ -872,7 +872,7 @@ section{
   transform:translateY(-4px);
 }
 .customer-logo{
-  font-size:14px;
+  font-size:18px;
   letter-spacing:2px;
   color:var(--text-muted);
   font-weight:700;
@@ -1124,23 +1124,26 @@ section{
 }
 .compare-header{
   display:grid;
-  grid-template-columns:1.4fr 1.2fr 1.2fr;
+  grid-template-columns:1.2fr 1.4fr 1.4fr;
+  gap:24px;
   background:linear-gradient(135deg, rgba(0,120,212,0.1), rgba(92,45,145,0.1));
-  padding:18px 24px;
+  padding:20px 28px;
+  font-size:16px;
   font-weight:700;
   border-bottom:1px solid var(--border);
 }
 .compare-row{
   display:grid;
-  grid-template-columns:1.4fr 1.2fr 1.2fr;
-  padding:18px 24px;
+  grid-template-columns:1.2fr 1.4fr 1.4fr;
+  gap:24px;
+  padding:20px 28px;
   border-bottom:1px solid var(--border);
   transition:background 0.2s;
 }
 .compare-row:hover{background:var(--surface-hover)}
 .compare-row:last-child{border-bottom:none}
-.compare-row .label{font-weight:600; font-size:14px; color:var(--text)}
-.compare-row .value{font-size:13px; color:var(--text-dim); line-height:1.5}
+.compare-row .label{font-weight:600; font-size:16px; color:var(--text)}
+.compare-row .value{font-size:15px; color:var(--text-dim); line-height:1.6}
 
 /* Slide gallery (optional reference) */
 .slide-ref{
@@ -1301,7 +1304,6 @@ footer{
   <a href="#roi" data-label="ROI 證據"></a>
   <a href="#roadmap" data-label="90 天路徑"></a>
   <a href="#compare" data-label="競品對比"></a>
-  <a href="#gallery" data-label="原始投影片"></a>
 </nav>
 
 <!-- 1. Hero -->
@@ -1374,7 +1376,7 @@ footer{
         <div class="pillar-icon" style="background:linear-gradient(135deg,#0078D4,#106EBE)">🧠</div>
         <h3 class="pillar-title">Work IQ</h3>
         <div class="pillar-en">工作脈絡 IQ</div>
-        <p class="pillar-desc">智慧層，讓 Copilot 能夠記憶個人化給你和你的組織的智慧層</p>
+        <p class="pillar-desc">讓 Copilot 能透過記憶與深度理解你的工作流程與商業脈絡，打造專屬於個人與組織的智慧層</p>
       </div>
       <div class="pillar" style="--pillar-color:rgba(92,45,145,0.25)">
         <div class="pillar-num">02</div>
@@ -1388,7 +1390,7 @@ footer{
         <div class="pillar-icon" style="background:linear-gradient(135deg,#E3008C,#FF4081)">🚀</div>
         <h3 class="pillar-title">Agentic Work</h3>
         <div class="pillar-en">第一方 Agent</div>
-        <p class="pillar-desc">在工作流程中讓 AI 具備執行力，直接將需求轉化為行動</p>
+        <p class="pillar-desc">在工作流程中讓 AI 具備執行力，直接將需求轉化為交付成果</p>
       </div>
       <div class="pillar" style="--pillar-color:rgba(255,185,0,0.25)">
         <div class="pillar-num">04</div>
@@ -1402,7 +1404,7 @@ footer{
         <div class="pillar-icon" style="background:linear-gradient(135deg,#00B294,#00897B)">🛡️</div>
         <h3 class="pillar-title">Security & Management</h3>
         <div class="pillar-en">安全與管理</div>
-        <p class="pillar-desc">內建企業級用戶權限、資料安全、Copilot 稽核 (Audit) 與治理、絕對不使用客戶資料、著作權保護</p>
+        <p class="pillar-desc">內建企業級用戶權限、資料安全、Copilot 稽核 (Audit) 與治理、絕對不使用客戶資料訓練模型、著作權保護</p>
       </div>
     </div>
   </div>
@@ -1493,6 +1495,27 @@ footer{
         </div>
       </div>
       <p class="chart-note"><strong>DRACO Benchmark</strong> = Deep Research Accuracy, Completeness, and Objectivity (衡量研究成果的真實性、完整性、客觀性、引用品質)。50+ = 已達「可交付、可決策參考」的研究品質。Researcher with Critique 是現階段最接近專業、最值得信任、可支援決策的 AI 研究。</p>
+    </div>
+
+    <h3 style="margin-top:80px; font-size:28px; font-weight:700;">Model Council <span style="color:var(--ms-blue-light)">— 多模型共議決策</span></h3>
+    <p style="color:var(--text-dim); margin-top:8px; max-width:780px">當任務涉及高風險決策或需要多角度驗證時，M365 Copilot 會召集多個模型組成「模型委員會」— 各自獨立分析、交叉審閱、最終匯聚為更可靠的結論。</p>
+
+    <div class="workiq-grid fade-up" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); margin-top:30px">
+      <div class="workiq-card" style="--card-color:#5C2D91">
+        <div class="workiq-card-bg"></div>
+        <h3 class="workiq-card-title" style="font-size:18px">多模型獨立推理</h3>
+        <p>同一個問題交由 GPT、Claude 等多個模型各自獨立分析，避免單一模型的盲點與偏誤。</p>
+      </div>
+      <div class="workiq-card" style="--card-color:#E3008C">
+        <div class="workiq-card-bg"></div>
+        <h3 class="workiq-card-title" style="font-size:18px">交叉審閱與挑戰</h3>
+        <p>模型之間互相審閱彼此的輸出，針對不一致之處提出質疑與修正，提升結論的可靠性。</p>
+      </div>
+      <div class="workiq-card" style="--card-color:#0078D4">
+        <div class="workiq-card-bg"></div>
+        <h3 class="workiq-card-title" style="font-size:18px">匯聚最終共識</h3>
+        <p>將多模型的觀點彙整為一份經過驗證的結論，適用於合約審閱、風險評估、策略建議等高風險場景。</p>
+      </div>
     </div>
   </div>
 </section>
@@ -1609,7 +1632,7 @@ footer{
         <div class="skill-icon">📄</div>
         <h4>Word 文件</h4>
         <div class="skill-en">docx</div>
-        <p>產出報告、備忘錄與信件，支援追蹤修訂與註解。</p>
+        <p>產出報告、備忘錄與信件，支援人與AI的追蹤修訂與註解。</p>
       </div>
       <div class="skill">
         <div class="skill-icon">📊</div>
@@ -1634,6 +1657,18 @@ footer{
         <h4>視覺化互動圖卡</h4>
         <div class="skill-en">Adaptive Cards</div>
         <p>在對話中產生具有結構化版面、按鈕與資料顯示的互動式卡片回應。</p>
+      </div>
+      <div class="skill">
+        <div class="skill-icon">🌐</div>
+        <h4>互動式網頁</h4>
+        <div class="skill-en">Interactive Web</div>
+        <p>將簡報、報告等內容轉化為可互動瀏覽的單頁式網頁，支援圖表動畫與響應式設計。</p>
+      </div>
+      <div class="skill">
+        <div class="skill-icon">🧩</div>
+        <h4>自訂技能</h4>
+        <div class="skill-en">Custom Skills</div>
+        <p>使用者可自行建立專屬技能，定義工作流程與指令模板，讓 Cowork 依需求擴充能力。</p>
       </div>
     </div>
   </div>
@@ -1745,9 +1780,6 @@ footer{
 
     </div>
 
-    <div style="margin-top:30px; padding:20px 24px; background:rgba(255,185,0,0.08); border:1px solid rgba(255,185,0,0.3); border-radius:12px; font-size:13px; color:var(--text-dim)">
-      💡 <strong style="color:var(--ms-yellow)">如何加入影片：</strong>Cowork demo 影片請命名為 <code style="background:#fff;padding:2px 8px;border-radius:4px;color:var(--ms-blue);border:1px solid rgba(0,103,192,0.2)">cowork-agent-1.mp4</code>、<code style="background:#fff;padding:2px 8px;border-radius:4px;color:var(--ms-blue);border:1px solid rgba(0,103,192,0.2)">cowork-agent-2.mp4</code>、<code style="background:#fff;padding:2px 8px;border-radius:4px;color:var(--ms-blue);border:1px solid rgba(0,103,192,0.2)">cowork-agent-3.mp4</code>，存進網站同層的 <code style="background:#fff;padding:2px 8px;border-radius:4px;color:var(--ms-blue);border:1px solid rgba(0,103,192,0.2)">videos/</code> 資料夾，重新整理頁面即可自動載入。
-    </div>
   </div>
 </section>
 
@@ -1760,58 +1792,22 @@ footer{
 
     <div class="skills-grid fade-up">
       <div class="skill">
-        <div class="skill-icon" style="background:linear-gradient(135deg,#0078D4,#106EBE)">📊</div>
-        <h4>Analyst</h4>
-        <div class="skill-en">進階推理 · GA</div>
-        <p>正式推出 — 進階推理分析師</p>
-      </div>
-      <div class="skill">
-        <div class="skill-icon" style="background:linear-gradient(135deg,#107C10,#0E6E0E)">📈</div>
-        <h4>Excel Agent</h4>
-        <div class="skill-en">Frontier Program</div>
-        <p>資料視覺化與洞察</p>
-      </div>
-      <div class="skill">
-        <div class="skill-icon" style="background:linear-gradient(135deg,#D83B01,#B83301)">📝</div>
-        <h4>問卷 Agent</h4>
-        <div class="skill-en">GA</div>
-        <p>端到端問卷管理</p>
-      </div>
-      <div class="skill">
-        <div class="skill-icon" style="background:linear-gradient(135deg,#D24726,#A33415)">🎨</div>
-        <h4>PowerPoint Agent</h4>
-        <div class="skill-en">Frontier Program</div>
-        <p>建立並反覆迭代簡報</p>
-      </div>
-      <div class="skill">
-        <div class="skill-icon" style="background:linear-gradient(135deg,#038387,#026B6F)">📋</div>
-        <h4>Planner</h4>
-        <div class="skill-en">Public Preview</div>
-        <p>自動化專案/任務管理</p>
-      </div>
-      <div class="skill">
-        <div class="skill-icon" style="background:linear-gradient(135deg,#5C2D91,#4B2576)">📚</div>
-        <h4>Knowledge Agent</h4>
-        <div class="skill-en">Public Preview</div>
-        <p>內容管理 & 組織</p>
-      </div>
-      <div class="skill">
         <div class="skill-icon" style="background:linear-gradient(135deg,#E3008C,#B80070)">🔬</div>
         <h4>Researcher</h4>
         <div class="skill-en">進階推理 · GA</div>
         <p>正式推出 — 深度研究</p>
       </div>
       <div class="skill">
-        <div class="skill-icon" style="background:linear-gradient(135deg,#185ABD,#0F4A9D)">📄</div>
-        <h4>Word Agent</h4>
-        <div class="skill-en">Frontier Program</div>
-        <p>文件建立與迭代</p>
+        <div class="skill-icon" style="background:linear-gradient(135deg,#0078D4,#106EBE)">📊</div>
+        <h4>Analyst</h4>
+        <div class="skill-en">進階推理 · GA</div>
+        <p>正式推出 — 進階推理分析師</p>
       </div>
       <div class="skill">
-        <div class="skill-icon" style="background:linear-gradient(135deg,#6264A7,#4F5295)">👥</div>
-        <h4>社群 Agent</h4>
-        <div class="skill-en">Public Preview</div>
-        <p>社群管理</p>
+        <div class="skill-icon" style="background:linear-gradient(135deg,#D83B01,#B83301)">📝</div>
+        <h4>問卷 Agent</h4>
+        <div class="skill-en">GA</div>
+        <p>端到端問卷管理</p>
       </div>
       <div class="skill">
         <div class="skill-icon" style="background:linear-gradient(135deg,#00B294,#00897B)">🌐</div>
@@ -1826,6 +1822,24 @@ footer{
         <p>Teams 會議主持管理</p>
       </div>
       <div class="skill">
+        <div class="skill-icon" style="background:linear-gradient(135deg,#185ABD,#0F4A9D)">📄</div>
+        <h4>Word Agent</h4>
+        <div class="skill-en">Frontier Program</div>
+        <p>文件建立與迭代</p>
+      </div>
+      <div class="skill">
+        <div class="skill-icon" style="background:linear-gradient(135deg,#107C10,#0E6E0E)">📈</div>
+        <h4>Excel Agent</h4>
+        <div class="skill-en">Frontier Program</div>
+        <p>資料視覺化與洞察</p>
+      </div>
+      <div class="skill">
+        <div class="skill-icon" style="background:linear-gradient(135deg,#D24726,#A33415)">🎨</div>
+        <h4>PowerPoint Agent</h4>
+        <div class="skill-en">Frontier Program</div>
+        <p>建立並反覆迭代簡報</p>
+      </div>
+      <div class="skill">
         <div class="skill-icon" style="background:linear-gradient(135deg,#FFB900,#FF8C00)">💡</div>
         <h4>Prompt Coach</h4>
         <div class="skill-en">Frontier Program</div>
@@ -1836,6 +1850,18 @@ footer{
         <h4>App Builder</h4>
         <div class="skill-en">Frontier Program</div>
         <p>自動化 App 建置</p>
+      </div>
+      <div class="skill">
+        <div class="skill-icon" style="background:linear-gradient(135deg,#038387,#026B6F)">📋</div>
+        <h4>Planner</h4>
+        <div class="skill-en">Public Preview</div>
+        <p>自動化專案/任務管理</p>
+      </div>
+      <div class="skill">
+        <div class="skill-icon" style="background:linear-gradient(135deg,#5C2D91,#4B2576)">📚</div>
+        <h4>Knowledge Agent</h4>
+        <div class="skill-en">Public Preview</div>
+        <p>內容管理 & 組織</p>
       </div>
     </div>
 
@@ -1898,12 +1924,12 @@ footer{
           <div>
             <div class="demo-cat">WORD AGENT</div>
             <h3>文件建立與迭代</h3>
-            <p>從零打造或迭代 Word 文件 — 報告、備忘錄、合約、提案,支援追蹤修訂與註解。</p>
+            <p>從零打造或迭代 Word 文件 — 報告、備忘錄、合約、提案,支援人與AI的追蹤修訂與註解。</p>
           </div>
           <div>
             <ul>
               <li>產出報告、備忘錄與信件</li>
-              <li>支援追蹤修訂與註解</li>
+              <li>支援人與AI的追蹤修訂與註解</li>
               <li>自動套用組織格式與品牌規範</li>
               <li>長文檔結構化生成與重構</li>
             </ul>
@@ -2002,9 +2028,6 @@ footer{
       </div>
     </div>
 
-    <div style="margin-top:30px; padding:20px 24px; background:rgba(255,185,0,0.08); border:1px solid rgba(255,185,0,0.3); border-radius:12px; font-size:13px; color:var(--text-dim)">
-      💡 <strong style="color:var(--ms-yellow)">如何加入影片:</strong>把 Agent demo 影片分別命名為 <code style="background:#fff;padding:2px 8px;border-radius:4px;color:var(--ms-blue);border:1px solid rgba(0,103,192,0.2)">researcher-agent.mp4</code>、<code style="background:#fff;padding:2px 8px;border-radius:4px;color:var(--ms-blue);border:1px solid rgba(0,103,192,0.2)">word-agent.mp4</code>、<code style="background:#fff;padding:2px 8px;border-radius:4px;color:var(--ms-blue);border:1px solid rgba(0,103,192,0.2)">excel-agent.mp4</code>、<code style="background:#fff;padding:2px 8px;border-radius:4px;color:var(--ms-blue);border:1px solid rgba(0,103,192,0.2)">ppt-agent.mp4</code>、<code style="background:#fff;padding:2px 8px;border-radius:4px;color:var(--ms-blue);border:1px solid rgba(0,103,192,0.2)">app-builder-agent.mp4</code>,存進 <code style="background:#fff;padding:2px 8px;border-radius:4px;color:var(--ms-blue);border:1px solid rgba(0,103,192,0.2)">videos/</code> 資料夾即可。
-    </div>
   </div>
 </section>
 
@@ -2328,18 +2351,6 @@ footer{
   </div>
 </section>
 
-<!-- 15. Original slides gallery -->
-<section id="gallery">
-  <div class="section-inner">
-    <div class="section-tag">REFERENCE</div>
-    <h2 class="section-title">原始投影片</h2>
-    <p class="section-subtitle">點擊任一張投影片可放大檢視 — 與互動內容對照</p>
-
-    <div class="gallery-grid fade-up" id="gallery-grid">
-      <!-- JS will populate -->
-    </div>
-  </div>
-</section>
 
 <footer>
   <p>Microsoft 365 Copilot Wave 3 · Frontier Transformation · 互動式呈現版本</p>
@@ -2428,19 +2439,6 @@ document.querySelectorAll('.demo-player').forEach(player => {
   });
 });
 
-// Populate gallery
-const galleryGrid = document.getElementById('gallery-grid');
-for (let i = 1; i <= 39; i++) {
-  const num = String(i).padStart(2, '0');
-  const item = document.createElement('div');
-  item.className = 'gallery-item';
-  item.innerHTML = `<div class="gallery-item-num">${num}</div><img src="assets/slides/slide-${num}.jpg" alt="Slide ${num}" loading="lazy">`;
-  item.addEventListener('click', () => {
-    document.querySelector('#lightbox img').src = `assets/slides/slide-${num}.jpg`;
-    document.getElementById('lightbox').classList.add('active');
-  });
-  galleryGrid.appendChild(item);
-}
 
 // Architecture image — open in lightbox
 document.querySelectorAll('.arch-image-wrap').forEach(wrap => {
